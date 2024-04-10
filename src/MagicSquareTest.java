@@ -116,7 +116,6 @@ class MagicSquareTest {
         assertTrue(MagicSquare.magicColumns(array2d7, MagicSquare.calculateCheckSum(array2d7)) == false);
         assertTrue(MagicSquare.magicColumns(array2d8, MagicSquare.calculateCheckSum(array2d8)) == false);
     }
-
     @org.junit.jupiter.api.Test
     void magicDiagonals() {
         assertTrue(MagicSquare.magicDiagonals(array2d, MagicSquare.calculateCheckSum(array2d)) == true);
@@ -128,7 +127,6 @@ class MagicSquareTest {
         assertTrue(MagicSquare.magicDiagonals(array2d7, MagicSquare.calculateCheckSum(array2d7)) == false);
         assertTrue(MagicSquare.magicDiagonals(array2d8, MagicSquare.calculateCheckSum(array2d8)) == true);
     }
-
     @org.junit.jupiter.api.Test
     void isMagic() {
         assertTrue(MagicSquare.isMagic(array2d) == true);
